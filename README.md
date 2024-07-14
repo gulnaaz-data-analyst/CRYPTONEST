@@ -1,8 +1,13 @@
-# React + Vite
+# CRYPTONEST
+CryptoPrice Tracker is a web application built with React.js, HTML, CSS, and JavaScript that provides real-time cryptocurrency prices in INR, USD, and EUR. The application leverages the CoinGecko API to fetch the latest prices of various cryptocurrencies.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+Real-time Cryptocurrency Prices: Get the latest prices of cryptocurrencies in INR, USD, and EUR.
+User-friendly Interface: Simple and intuitive interface designed for easy navigation and information retrieval.
+Responsive Design: Works seamlessly on both desktop and mobile devices.
+## Technologies Used
+React.js: A JavaScript library for building user interfaces.
+HTML: Markup language for creating the structure of the web pages.
+CSS: Stylesheet language for designing the appearance of the web pages.
+JavaScript: Programming language for implementing the functionality.
+CoinGecko API: An API to fetch the latest cryptocurrency prices.
