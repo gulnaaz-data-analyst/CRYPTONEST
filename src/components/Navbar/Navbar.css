@@ -1,0 +1,89 @@
+.navbar{
+    height: 80px;
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    color:#ddd;
+    
+    background: rgb(21, 21, 21);
+    
+}
+.navbar .logo{
+    width: max(10vw,150px);
+    align-items: center;
+    padding: 10px;
+    
+      
+      
+}
+
+.navbar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li{
+   cursor: pointer;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap:max(1vw,12px);
+    
+}
+.navbar select{
+    padding: 5px 8px;
+    border-radius: 6px;
+    border: 2px solid white;
+    background:#ddd;
+    color:rgb(21, 21, 21);
+}
+ .navbar option{
+   background-color: rgb(21, 21, 21);
+    color: white;
+}
+.navbar button{
+    display:flex;
+    align-items:center;
+    gap: 10px;
+    padding:10px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight:500;
+    color:rgb(21, 21, 21);
+    background:#ddd;
+    border:none;
+    cursor: pointer;
+}
+.navbar button img{
+    width: 25px;
+}
+
+
+@media(max-width:900px){
+    .navbar{
+        padding: 20px 8%;
+    }
+    .nvabar button{
+        gap:8px;
+        padding:8px 18px;
+        font-size:14px;
+    }
+}
+
+@media(max-width:768px){
+    .navbar{
+        padding: 20px 5%;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar button img{
+        width: 12px;
+    }
+}
