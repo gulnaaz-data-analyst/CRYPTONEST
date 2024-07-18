@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div className='footer'>
-      <p>Copyright @ 2024 Cryptoplace.All Right Reserved.</p>
+      <p>Copyright @ 2024 CryptoNest.All Right Reserved.</p>
     </div>
   )
 }
